@@ -1,0 +1,12 @@
+package com.codingtips;
+
+public class RemoveAllWhiteSpaces {
+
+public static void main(String[] arg) {
+String str = "  Re mo ve Wh it e Sp ac es ";
+String str1 = str.replaceAll("\\s", "");
+System.out.println(str1);
+
+}
+
+}
